@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <h1>TandemNotas</h1>
-    <label for="date">Introduce una fecha de ingreso </label>
-    <label for ="name">Introduce tu nombre</label>
+  <div class="container">
+  <h1>TandemNotas</h1>
+  <div class="nota" id="nota" contenditable="true">Edita la nota
+</div>
+<button id="add-nota">Añadir nota</button>
+<button id="clean-notas">Limpiar notas</button>
+<div id="display-notas">
+  <div class='no-nota'>
+    <span>No tienes notas guardadas</span>
+  </div>
+</div>
+</div>
 
-    <script src="main.js"></script>
+<label for="date">Introduce una fecha de ingreso </label>
+  <label for="name">Introduce tu nombre</label>
+  <script src="main.js"></script>
+  <script src="main2.js"></script>
+  
 </body>
 </html>
